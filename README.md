@@ -1,4 +1,4 @@
-# DESN468-Boilerplate
+# JS-Libraries-and-Plugins
 
 Default favicons grabbed from favicon.io
 
