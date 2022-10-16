@@ -1,3 +1,7 @@
+body {
+    background-color: aliceblue;
+}
+
 h1 {
     color:darkblue;
     font-family: Excon-Variable;
@@ -9,3 +13,15 @@ p {
     font-family: Excon-Variable;
     font-size: 24px;
 }
+
+.letter {
+
+    /* tried playing with the variable font commands, do i need the rest of the fonts added to run the other types (bold/black?)  */
+    text-align: center;
+    font-weight: 600;
+}
+
+/* select the proper class thats using lettering.js, otherwise it selects everything because they both work the same way for seperating le */
+.letter span:nth-child(odd) {
+    color: violet;
+  }

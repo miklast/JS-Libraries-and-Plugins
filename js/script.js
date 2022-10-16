@@ -11,3 +11,7 @@ window.addEventListener('resize', function updateRadius() {
 
 //despite existing in line 8, it freaks out about us calling it in line 13? i dont fully understand on this one
 //updateRadius();
+
+//letterng.js: select class letter then iterate to chars based on the sleected keyword (this one being letters)
+var lettering = new Lettering('.letter');
+lettering.letters();
